@@ -1,0 +1,80 @@
+---
+title: ""
+page-layout: full
+---
+
+::: hero-wrapper
+::: hero-text
+# Your Name
+
+::: hero-tags
+[PhD Candidate]{.tag} [Your Role]{.tag} [Your Institution]{.tag}
+:::
+
+::: hero-bio
+A brief bio about you and your work. Describe your role, institution, and research interests in 2–3 sentences. This appears on the home page beneath your name.
+:::
+
+::: hero-links
+[Research →](pages/research.qmd){.hero-btn .btn-primary} [Education & Experience →](pages/history.qmd){.hero-btn .btn-secondary} [Get in touch →](pages/contact.qmd){.hero-btn .btn-secondary}
+:::
+:::
+
+::: hero-photo
+![Your Name](images/profile.jpg){.profile-img}
+:::
+:::
+
+------------------------------------------------------------------------
+
+::: about-section
+## Current focus
+
+Write 2–3 sentences here describing your current research area or project. This is a good place to briefly explain what you're working on and why it matters.
+:::
+
+::: stats-strip
+::: stat-item
+**📄**\
+**0**\
+Publications
+:::
+
+::: stat-item
+**🔰**\
+**0**\
+In progress
+:::
+
+::: stat-item
+**↗️**\
+**20XX**\
+PhD started
+:::
+
+::: stat-item
+**✅**\
+**Your Uni**\
+Institution
+:::
+:::
+
+::: card
+### Research & Publications
+
+A short description of your research and publication record.
+
+[Read more →](pages/research.qmd){.card-link}
+
+### Education & Experience
+
+Your academic history, roles, and professional background.
+
+[Where have I been? →](pages/history.qmd){.card-link}
+
+### Contact
+
+The best way to reach you for research, teaching, or other inquiries.
+
+[Get in touch →](pages/contact.qmd){.card-link}
+:::

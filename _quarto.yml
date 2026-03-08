@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Your Name"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: pages/research.qmd
+        text: Research
+      - href: pages/history.qmd
+        text: Education & Experience
+      - href: pages/contact.qmd
+        text: Contact
+    right:
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/yourlinkedinhandle
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    include-in-header:
+      text: |
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
