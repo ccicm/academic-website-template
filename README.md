@@ -47,6 +47,7 @@ Clone or download the repo, edit the `.qmd` files with your own details, then pu
 | `_quarto.yml` | Site title, navbar links |
 | `styles.css` | Colours and fonts — edit `--navy` and `--accent` at the top |
 | `images/profile.jpg` | Replace with your own photo |
+| `favicon files` | Replace with your own icon |
 
 ---
 
