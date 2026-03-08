@@ -300,5 +300,5 @@ DNS propagation takes up to 30–60 minutes.
 ------------------------------------------------------------------------
 
 ::: about-section
-Questions or issues with the template? Feel free to [get in touch](contact.qmd) or [open an issue on GitHub](https://github.com/ccicm/academic-website-template/issues/new).
+Questions or issues with the template? Feel free to [get in touch](pages/contact.qmd) or [open an issue on GitHub](https://github.com/ccicm/academic-website-template/issues/new).
 :::
