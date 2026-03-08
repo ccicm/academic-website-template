@@ -12,6 +12,8 @@ website:
         text: Research
       - href: pages/history.qmd
         text: Education & Experience
+      - href: pages/projects.qmd
+        text: Projects
       - href: pages/contact.qmd
         text: Contact
     right:
