@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Your Name"
+  favicon: favicon.ico
   navbar:
     left:
       - href: template.qmd
