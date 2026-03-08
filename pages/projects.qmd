@@ -1,0 +1,67 @@
+---
+title: ""
+page-layout: full
+---
+
+::: page-header
+# Projects
+:::
+
+A mix of research tools, open-source work, and things built along the way. Some are polished and live; others are works in progress. Remove this page from `_quarto.yml` if you don't need it.
+
+------------------------------------------------------------------------
+
+::: project-grid
+
+::: project-card
+[Live]{.project-status .status-live}
+
+### Project title
+
+Description of your project — what it does, who it's for, and what it contributes.
+
+::: project-tags
+[Tag 1]{.project-tag} [Tag 2]{.project-tag} [Tag 3]{.project-tag}
+:::
+
+::: project-links
+[View project](https://yourprojecturl.com){.project-link}
+[GitHub](https://github.com/yourusername/yourrepo){.project-link-secondary}
+:::
+:::
+
+::: project-card
+[In progress]{.project-status .status-wip}
+
+### Project title
+
+Description of your project — what it does, who it's for, and what it contributes.
+
+::: project-tags
+[Tag 1]{.project-tag} [Tag 2]{.project-tag}
+:::
+
+::: project-links
+[Coming soon]{.project-link}
+:::
+:::
+
+::: project-card
+[Planned]{.project-status .status-planned}
+
+### Project title
+
+Description of your project — what it does, who it's for, and what it contributes.
+
+::: project-tags
+[Tag 1]{.project-tag} [Tag 2]{.project-tag}
+:::
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+::: about-section
+Have a question about any of these, or interested in collaborating? [Get in touch →](contact.qmd)
+:::
