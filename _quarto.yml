@@ -30,3 +30,22 @@ format:
     include-in-header:
       text: |
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var s = getComputedStyle(document.documentElement);
+          window.CCM_COLORS = {
+            navy:      s.getPropertyValue('--navy').trim()       || '#1e3a2a',
+            navyLight: s.getPropertyValue('--navy-light').trim() || '#2a5040',
+            accent:    s.getPropertyValue('--accent').trim()     || '#c05a4a',
+            bg:        s.getPropertyValue('--bg').trim()         || '#f8f7f5',
+            bgCard:    s.getPropertyValue('--bg-card').trim()    || '#ffffff',
+            textMuted: s.getPropertyValue('--text-muted').trim() || '#5c5c5c',
+            border:    s.getPropertyValue('--border').trim()     || '#e4e1da',
+            tagBg:     s.getPropertyValue('--tag-bg').trim()     || '#eef2f8',
+            radius:    s.getPropertyValue('--radius').trim()     || '12px',
+          };
+        });
+        </script>
