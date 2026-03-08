@@ -6,8 +6,8 @@ website:
   title: "Your Name"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - href: template.qmd
+        text: Website Template
       - href: pages/research.qmd
         text: Research
       - href: pages/history.qmd
