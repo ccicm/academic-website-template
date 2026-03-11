@@ -35,7 +35,7 @@ Your site will be live at `https://yourgithubusername.github.io/your-repo-name` 
 
 Clone or download the repo, edit the `.qmd` files with your own details, then push. The site updates automatically.
 
-> See the [full setup guide](https://connorconkeymorrison.com/pages/template) for step-by-step instructions on connecting your ORCID, setting up the contact form, and configuring a custom domain.
+> See the [full setup guide](https://www.connorconkeymorrison.com/template) for step-by-step instructions on connecting your ORCID, setting up the contact form, and configuring a custom domain.
 
 ---
 
