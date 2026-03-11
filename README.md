@@ -2,7 +2,7 @@
 
 A free, professional academic website built with Quarto and hosted on GitHub Pages. No coding experience required.
 
-**[→ Full setup guide](https://connorconkeymorrison.com/pages/template)**
+**[→ Full setup guide](https://www.connorconkeymorrison.com/template)**
 
 ---
 
