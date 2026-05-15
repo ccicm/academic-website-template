@@ -88,7 +88,7 @@ The `note` field is optional. Metadata (title, authors, journal, year) is fetche
 
 The homepage shows the first 3 entries. The research page shows up to 5, with a "show more" button for the rest. New entries go at the top of the list.
 
-**Optional — Google Sheets sync:** The template includes `readinglist_appscript.gs`, a Google Apps Script that connects a Google Sheet to your site. Paste a DOI, PMID, or APA citation into the sheet and metadata + tags are filled in automatically. One click pushes `data/reading.json` to GitHub. See the [full setup guide](https://www.connorconkeymorrison.com/template#optional-sync-your-reading-list-from-google-sheets) for step-by-step instructions.
+**Optional — Google Sheets sync:** The template includes `readinglist_appscript.gs`, a Google Apps Script that connects a Google Sheet to your site. Paste a DOI, PMID, or APA citation into the sheet and metadata + tags are filled in automatically. One click pushes `data/reading.json` to GitHub. See the setup instructions in `template.qmd` (or the live template page on your site).
 
 ---
 
