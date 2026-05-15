@@ -1,0 +1,55 @@
+{
+  "currentQuarter": 3,
+  "estimatedCompletion": "20XX",
+  "milestones": [
+    { "quarter": 1,  "label": "M1", "full": "Confirmation of Candidature" },
+    { "quarter": 5,  "label": "M2", "full": "Milestone 2" },
+    { "quarter": 9,  "label": "M3", "full": "Milestone 3" },
+    { "quarter": 13, "label": "4Y", "full": "4th Year — Maximum Submission" }
+  ],
+  "papers": [
+    {
+      "id": 1,
+      "label": "Paper 1",
+      "title": "Your first paper title or type",
+      "activities": [
+        { "desc": "Literature review",           "statuses": { "1": "done" } },
+        { "desc": "Study design & registration", "statuses": { "2": "done" } },
+        { "desc": "Data collection",             "statuses": { "3": "wip", "5": "goal" } },
+        { "desc": "Analysis",                    "statuses": { "5": "todo", "6": "goal" } },
+        { "desc": "Draft manuscript",            "statuses": { "6": "todo", "7": "goal" } },
+        { "desc": "Submit & revise",             "statuses": { "7": "todo", "9": "goal" } }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Paper 2",
+      "title": "Your second paper title or type",
+      "activities": [
+        { "desc": "Protocol development",  "statuses": { "3": "wip",  "5": "goal" } },
+        { "desc": "Data collection",       "statuses": { "5": "todo", "8": "goal" } },
+        { "desc": "Analysis",              "statuses": { "8": "todo", "9": "goal" } },
+        { "desc": "Draft & submit",        "statuses": { "9": "todo", "11": "goal" } }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Paper 3",
+      "title": "Your third paper title or type",
+      "activities": [
+        { "desc": "Protocol development", "statuses": { "5": "todo",  "7": "goal" } },
+        { "desc": "Data collection",      "statuses": { "7": "todo",  "10": "goal" } },
+        { "desc": "Analysis",             "statuses": { "10": "todo", "11": "goal" } },
+        { "desc": "Draft & submit",       "statuses": { "11": "todo", "13": "goal" } }
+      ]
+    },
+    {
+      "id": 0,
+      "label": "Thesis",
+      "title": "Integration & submission",
+      "activities": [
+        { "desc": "Integrate findings into thesis", "statuses": { "13": "todo", "15": "goal" } }
+      ]
+    }
+  ]
+}
