@@ -76,15 +76,16 @@ Open `data/reading.json` and add entries in this format:
 [
   {
     "doi": "10.1000/xyz123",
+    "title": "Full paper title",
+    "authors": "Smith, J., Jones, A., et al.",
+    "year": "2023",
+    "journal": "Journal Name",
     "note": "A short note about why this paper is worth reading."
-  },
-  {
-    "doi": "10.1000/abc456"
   }
 ]
 ```
 
-The `note` field is optional. Metadata (title, authors, journal, year) is fetched automatically from Crossref using the DOI — you don't need to fill those in manually.
+All fields except `doi` are optional — but without `title`, `authors`, `year`, and `journal` your reading list will display bare DOIs. Fill them in manually, or use the Google Sheets sync (see below) to have them fetched automatically.
 
 The homepage shows the first 3 entries. The research page shows up to 5, with a "show more" button for the rest. New entries go at the top of the list.
 
