@@ -75,7 +75,7 @@ Your site will build automatically. After 1–2 minutes, a URL will appear at th
 1. Open **GitHub Desktop**
 2. Click **File → Clone Repository**
 3. Find your new repository in the list and clone it to a folder on your computer
-4. Open the folder in RStudio: **File → Open Project** → select the `.Rproj` file, or just open RStudio and navigate to the folder
+4. Open the folder in RStudio: **File → Open Project** → navigate to the folder and click **Open** (no `.Rproj` file is needed)
 
 You'll see all the site files in the file browser on the right side of RStudio.
 

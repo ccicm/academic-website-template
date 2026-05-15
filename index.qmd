@@ -71,7 +71,7 @@ Write 2–3 sentences here describing your current research area or project. Thi
 
 ```{=html}
 <div id="home-reading-list"><p style="font-size:0.9rem;color:var(--text-muted);">Loading…</p></div>
-<p style="margin-top:0.75rem;"><a href="pages/research.qmd#recent-reading" style="font-size:0.875rem;font-weight:600;color:var(--accent);text-decoration:none;">View all →</a></p>
+<p style="margin-top:0.75rem;"><a href="pages/research.html#recent-reading" style="font-size:0.875rem;font-weight:600;color:var(--accent);text-decoration:none;">View all →</a></p>
 
 <script>
 (async function() {
