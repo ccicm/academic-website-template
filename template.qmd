@@ -93,7 +93,7 @@ All the content lives in `.qmd` files — plain text files with a little formatt
 
 ::: role-block
 [`pages/research.qmd` — Research & Publications]{.role-title}
-[Update the research focus paragraph and the paper cards. The PhD timeline reads from `data/timeline.json` — edit that file to set your current quarter, estimated completion year, paper titles, and activity list (see Step 4b below). Then find `const ORCID_ID = '...'` near the bottom of the page and replace it with your own ORCID identifier — publications will load and update automatically from there. Also update the `SCHOLAR_URL` constant and the sidebar profile links.]{.role-desc}
+[Update the research focus paragraph and the paper cards. The progress tracker reads from `data/timeline.json` — edit that file to set your current quarter, completion year, row labels, and activity list (see Step 4b below). Then find `const ORCID_ID = '...'` near the bottom of the page and replace it with your own ORCID identifier — publications will load and update automatically from there. Also update the `SCHOLAR_URL` constant and the sidebar profile links.]{.role-desc}
 :::
 
 ::: role-block
@@ -344,6 +344,11 @@ DNS propagation takes up to 30–60 minutes.
 ::: role-block
 [Publications not loading]{.role-title}
 [Check that your ORCID profile is set to public and that your works are visible without logging in. Visit `https://pub.orcid.org/v3.0/YOUR-ORCID-ID/works` in a browser — if it returns data, the page will load correctly.]{.role-desc}
+:::
+
+::: role-block
+[Contact form not delivering messages]{.role-title}
+[Double-check the access key in `pages/contact.qmd` matches the one from your Web3Forms account. Also check your spam folder for the first few messages — Web3Forms emails sometimes land there initially.]{.role-desc}
 :::
 
 ::: role-block
