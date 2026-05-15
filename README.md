@@ -68,6 +68,30 @@ Make sure your ORCID profile is set to public. Publications update automatically
 
 ---
 
+## Updating your reading list
+
+Open `data/reading.json` and add entries in this format:
+
+```json
+[
+  {
+    "doi": "10.1000/xyz123",
+    "note": "A short note about why this paper is worth reading."
+  },
+  {
+    "doi": "10.1000/abc456"
+  }
+]
+```
+
+The `note` field is optional. Metadata (title, authors, journal, year) is fetched automatically from Crossref using the DOI — you don't need to fill those in manually.
+
+The homepage shows the first 3 entries. The research page shows up to 5, with a "show more" button for the rest. New entries go at the top of the list.
+
+**Optional — Google Sheets sync:** The template includes `readinglist_appscript.gs`, a Google Apps Script that connects a Google Sheet to your site. Paste a DOI, PMID, or APA citation into the sheet and metadata + tags are filled in automatically. One click pushes `data/reading.json` to GitHub. See the [full setup guide](https://www.connorconkeymorrison.com/template#optional-sync-your-reading-list-from-google-sheets) for step-by-step instructions.
+
+---
+
 ## Setting up the contact form
 
 1. Get a free access key at [web3forms.com](https://web3forms.com)

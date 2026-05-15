@@ -177,6 +177,45 @@ The homepage shows the first 3 entries; the research page shows up to 5, with a 
 
 ------------------------------------------------------------------------
 
+## Optional: Sync your reading list from Google Sheets
+
+If you want to manage your reading list in a spreadsheet rather than editing JSON by hand, the template includes a Google Apps Script (`readinglist_appscript.gs`) that connects a Google Sheet to your site. Once set up, you paste a DOI, PMID, or APA citation into the sheet — metadata and tags are filled in automatically — then click **Sync to website now** to push `data/reading.json` directly to GitHub.
+
+**What you'll need:**
+
+- A GitHub personal access token (with `repo` scope) — create one at [github.com/settings/tokens](https://github.com/settings/tokens)
+- A Google account with Google Sheets and Google Apps Script access
+- Optional: a free Groq API key from [console.groq.com](https://console.groq.com) — enables AI-generated reading notes
+
+**Setup:**
+
+1. Create a new Google Sheet and open **Extensions → Apps Script**
+2. Delete the default code and paste the contents of `readinglist_appscript.gs`
+3. At the top of the script, update these two lines:
+
+```js
+GITHUB_OWNER: 'YOUR-GITHUB-USERNAME',
+GITHUB_REPO:  'YOUR-REPO-NAME',
+```
+
+4. Also replace `youremail@institution.edu` with your email (used for Crossref API politeness)
+5. Save the script (**Ctrl+S**), then reload your Google Sheet — a **📚 Reading List** menu will appear
+6. Run the setup steps in order from that menu:
+   - **1. Set GitHub token** — paste your token
+   - **2. Set Groq API key** — optional, skip if you don't want AI-generated notes
+   - **3. Set up sheets & tags** — creates the Reading List, APA Input, and Tags sheets
+   - **5. Install APA trigger** — enables auto-processing when you paste into the sheet
+
+**Adding papers:**
+
+Paste a DOI, PMID, or APA citation into column A of the **APA Input** sheet. The script resolves it to a DOI, fetches metadata from Crossref, suggests tags, and adds a new row to the Reading List. If you set a Groq key, a short reading note is generated automatically — edit it to match your voice.
+
+**Syncing to your site:**
+
+Click **📚 Reading List → Sync to website now**. The script commits `data/reading.json` to your GitHub repo. Your site rebuilds automatically within ~2 minutes.
+
+------------------------------------------------------------------------
+
 ## Step 8 — Add your photo
 
 1. Find a headshot photo (square or portrait crops work best)
