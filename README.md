@@ -48,7 +48,7 @@ Clone or download the repo, edit the `.qmd` files with your own details, then pu
 | `pages/history.qmd` | Education, roles, memberships, skills |
 | `pages/projects.qmd` | Optional projects page — remove from `_quarto.yml` if not needed |
 | `pages/contact.qmd` | Contact form — replace `YOUR-ACCESS-KEY` with your Web3Forms key |
-| `data/timeline.json` | PhD timeline — papers, activities, quarters, milestones |
+| `data/timeline.json` | Progress tracker — rows, activities, quarters, milestones |
 | `data/reading.json` | Reading list entries — DOIs + notes |
 | `_quarto.yml` | Site title, navbar links, LinkedIn URL |
 | `styles.css` | Colours and fonts — edit `--navy` and `--accent` at the top |

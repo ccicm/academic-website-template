@@ -23,7 +23,7 @@ engine: markdown
 Write a paragraph describing your current research focus. What questions are you trying to answer? What methods do you use? What population or context does your work apply to?
 
 ```{=html}
-<!-- PhD Timeline — reads from /data/timeline.json -->
+<!-- Progress tracker (Gantt) — reads from /data/timeline.json -->
 <div class="tl-legend">
   <div class="tl-legend-item"><span class="tl-legend-dot done"></span> Completed</div>
   <div class="tl-legend-item"><span class="tl-legend-dot wip"></span> In progress</div>

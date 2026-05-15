@@ -119,14 +119,14 @@ All the content lives in `.qmd` files — plain text files with a little formatt
 
 ------------------------------------------------------------------------
 
-## Step 4b — Update your PhD timeline
+## Step 4b — Update your progress tracker
 
-The research page includes an interactive Gantt-style tracker that reads from `data/timeline.json`. Open that file and update:
+The research page includes an interactive Gantt-style tracker that reads from `data/timeline.json`. It's set up as a PhD-by-publication tracker, but the structure is generic — rename the rows to chapters, phases, workstreams, or whatever fits your project. Open the file and update:
 
-- **`currentQuarter`** — which quarter of your PhD you're in (1–16)
-- **`estimatedCompletion`** — your target submission year
-- **`milestones`** — key programme dates (confirmation, milestones, maximum submission). Set `quarter` to the quarter each falls in.
-- **`papers`** — one entry per paper (or chapter). Each paper has a `label`, `title`, and a list of `activities`.
+- **`currentQuarter`** — which quarter you're in (1–16 covers four years)
+- **`estimatedCompletion`** — your target completion year
+- **`milestones`** — key dates to mark on the header (e.g. confirmation, annual reviews). Set `quarter` to the quarter each falls in. Delete this section if you don't need it.
+- **`papers`** — one row per workstream (paper, chapter, phase — rename `label` and `title` freely). Each has a list of `activities`.
 
 Each activity has a `desc` (short label) and a `statuses` object — the keys are quarter numbers, the values are `"done"`, `"wip"`, `"todo"`, or `"goal"`. A single-quarter activity has one entry; a multi-quarter span has two (start and end):
 
@@ -135,7 +135,7 @@ Each activity has a `desc` (short label) and a `statuses` object — the keys ar
 { "desc": "Ethics approval",  "statuses": { "1": "done" } }
 ```
 
-You can have as many papers and activities as you like. If you don't use a thesis-by-publication model, just rename the paper labels to chapters or phases — the structure is the same.
+Add or remove as many rows and activities as you need. If you don't want the tracker at all, delete the `{=html}` block from `pages/research.qmd` and remove `data/timeline.json`.
 
 ------------------------------------------------------------------------
 
